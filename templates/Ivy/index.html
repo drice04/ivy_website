@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/homepage.css' %}" />
+        <title>
+            Homepage
+        </title>
+    </head>
+
+    <body>
+        <div class="top_part">
+            <div class="bio">
+                <div class="bio_row">
+                    <div class="img_and_name">
+                        <img id="profile_picture" class="bio_elem" src="{% static 'images/ivy_profile_photo.jpeg' %}" alt="Picture of Ivy">
+                        <div class="bio_elem text_ivy jumbo">Ivy Fawcett</div>
+                    </div>
+                    <div class="about">
+                        <div class="section_header text_ivy">About me</div>
+                        <div class="desc text_ivy">Hi! I’m Ivy Fawcett, a young filmmaker and visual storyteller currently finishing my first year at Royal Holloway, University of London, where I study Film Production with a focus on cinematography and editing. My journey into filmmaking has been a bit unconventional—
+                            I graduated high school a year and a half early, before taking the leap and moving to the UK to pursue higher education. I have since graduated from an international foundation year program with Study Group at RHUL. Prior to university, I immersed myself in the world of theater, taking on roles both on and off the stage. From directing, to acting and sound design, to costuming and stage manager,  I love to bring stories to life, and I am beyond passionate about my work. That passion for visual storytelling naturally led me to film, where I thrive behind the camera and behind the scenes. 
+                            </div>
+                    </div>
+                </div>
+                <div class="desc text_ivy long_style">I am currently working on a mix of student films and personal projects, working as a director, cinematographer, boom operator, producer, and editor, always looking for new ways to experiment, learn, and grow as a filmmaker.</div>
+            </div>
+            <div id="first" class="image_container">
+                <video id="henry" width="600" height="338" controls>
+                    <source class="video" src="{% static 'video/henry.mp4' %}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="grid_elem">
+                    <img class="grid_image tall_image" src="{% static 'images/img9.jpg' %}">
+                    <p>Description</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="img_and_vid">
+            <div class="grid_elem" id="img_and_vid">
+                <video id="hwof" width="1440" height="810" controls>
+                    <source class="video" src="{% static 'video/HWOF.mp4' %}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Description</p>
+            </div>
+            <div class="grid_elem">
+                <img class="grid_image" src="{% static 'images/img4.jpg' %}">
+                <p>Description</p>
+            </div>
+        </div>
+
+        <div class="skills_box">
+            <div class="images_container">
+                <div class="grid_elem">
+                    <img class="grid_image" src="{% static 'images/img1.JPG' %}">
+                    <p>Description</p>
+                </div>
+                <div class="images_vert">
+                    <div class="grid_elem">
+                        <img class="grid_image" src="{% static 'images/img2.jpg' %}">
+                        <p>Description</p>
+                    </div>
+                    <div class="grid_elem">
+                        <img class="grid_image" src="{% static 'images/img3.PNG' %}">
+                        <p>Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about">
+                <div class="section_header text_ivy">Work experience</div>
+                <div class="desc skills text_ivy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vulputate lobortis arcu sed viverra.
+                    Duis gravida congue ex, in cursus ex eleifend accumsan. Nunc eros mi, euismod lobortis porta in, dapibus
+                    nec erat. Suspendisse egestas ultrices orci, non interdum tortor hendrerit vitae. Nullam lacus lorem, semper
+                    quis semper a, mollis sit amet purus. Mauris faucibus posuere dui, non cursus magna finibus in. </div>
+            </div>
+        </div>
+
+        <div class="skills_box">
+            <div class="about">
+                <div class="section_header text_ivy">Skills</div>
+                <div class="desc skills text_ivy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vulputate lobortis arcu sed viverra.
+                    Duis gravida congue ex, in cursus ex eleifend accumsan. Nunc eros mi, euismod lobortis porta in, dapibus
+                    nec erat. Suspendisse egestas ultrices orci, non interdum tortor hendrerit vitae. Nullam lacus lorem, semper
+                    quis semper a, mollis sit amet purus. Mauris faucibus posuere dui, non cursus magna finibus in. </div>
+            </div>
+            <div class="images_container">
+                <div class="images_vert">
+                    <div class="grid_elem">
+                        <img class="grid_image" src="{% static 'images/img7.jpg' %}">
+                        <p>Description</p>
+                    </div>
+                    
+                </div>
+                <div class="images_vert">
+                    <div class="grid_elem">
+                        <img class="grid_image" src="{% static 'images/img5.jpg' %}">
+                        <p>Description</p>
+                    </div>
+                    <div class="grid_elem">
+                        <img class="grid_image" src="{% static 'images/img9.jpg' %}">
+                        <p>Description</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="images_container">
+            <div class="image_container">
+                <div class="grid_elem" id="final_image">
+                    <img class="grid_image" src="{% static 'images/img6.jpg' %}">
+                    <p>Description</p>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>

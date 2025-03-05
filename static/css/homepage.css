@@ -1,0 +1,175 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #C3C3E5;
+}
+
+p {
+    font-size: 18pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#profile_picture {
+    width: 600px;
+    height: 600px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #00628B;
+    height: 100px;
+}
+
+.section_header {
+    font-size: 36pt;
+    font-weight: bold;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f4b8f5;
+    border-style: solid;
+    border-color: #f4b8f5;
+    border-width: 50px;
+    border-bottom-right-radius: 50px;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 100px;
+}
+
+.bio_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.desc {
+    font-size: 24pt;
+    text-wrap: true;
+    width: 800px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.text_ivy {
+    color:#777B88 ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+    
+.bio_elem {
+    text-align: center;
+    font-size: 80pt;
+    margin-right: 60px;
+    font-weight: bold;
+}
+
+.img_and_name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_and_desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_item {
+    font-size: 24px;
+    padding-left: 40px;
+    text-align: center;
+    color: #E6E6DC;
+}
+
+.banner {
+    font-size: 42pt;
+    font-weight: bold;
+}
+
+.grid_image {
+    width: 600px;
+}
+
+.grid_elem {
+    width: 600px;
+    border-style: dashed;
+    border-width: 5px;
+    border: #251b37;
+    align-items: center;
+    margin: 25px;
+}
+
+.image_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.images_container {
+    display: flex;
+    margin: 100px;
+    margin-top: 0px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top_part {
+    display: flex;
+    flex-direction: row;
+}
+
+#first {
+    width: fit-content;
+    margin-top: 100px;
+    display: inline;
+}
+
+.img_and_vid {
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+#img_and_vid {
+    position: relative;
+    top: -200px;
+    left: -50px;
+}
+
+#henry {
+    position: relative;
+    top: -50px;
+}
+
+.skills_box {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -300px;
+    margin-left: 50px;
+}
+
+.images_vert {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills {
+    width: 800px;
+}
+
+#final_image {
+    position: relative;
+    top: -1000px;
+}
+
+.long_style {
+    width: 100%;
+}
